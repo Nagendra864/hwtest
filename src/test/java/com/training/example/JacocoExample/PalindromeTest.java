@@ -20,7 +20,7 @@ public class PalindromeTest{
     @Test
     public void testWordNotInString() {
         String sentence = "hello world";
-        assertFalse(sentence.contains("cat"));
+        assertFalse(sentence.contains("hello"));
     }
     /* Corner case Test 1 - Empty */
 
